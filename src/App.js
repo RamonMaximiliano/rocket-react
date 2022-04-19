@@ -1,6 +1,15 @@
+import Card from "./components/Card.js"
+
 function App() {
   return (
-    <h1>Tittle Test</h1> 
+    <div className="tittle-div">
+      <h1 className="MainTittle">React App</h1>
+      <input type="text" placeholder="Type your item"></input>
+      <button>Add</button>
+
+      <Card/>
+
+    </div>
   );
 }
 

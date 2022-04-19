@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@600&family=Poppins:wght@800&display=swap');
+
+/* 
+font-family: 'Libre Baskerville', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif; 
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(148, 148, 248);
+}
+
+.tittle-div {
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
+    border-style: none;
+}
+
+.MainTittle {
+    font-family: 'Libre Baskerville', serif;
+    margin: 10px;
+    color: rgb(92, 3, 3);
+    font-size: 45px;
+}
+
+.tittle-div input {
+    margin-right: 20px;
+    width: 300px;
+    height: 30px;
+    border-style: none;
+    background-color: white;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.tittle-div button {
+    width: 100px;
+    height: 30px;
+    border-style: none;
+    background-color: rgb(204, 10, 10);
+    color: white;
+    font-size: 15px;
+    cursor:pointer;
+}
+.tittle-div button:hover {
+    background-color: rgb(255, 50, 50);
+}
+
+.card{
+    display:flex;
+    background-color: rgb(241, 245, 4);
+    align-items: center;
+    text-align: center;
+    width:500px;
+    margin:auto;
+    margin-top:30px;
+    height: 40px;
+    justify-content:space-between;
+    padding:15px;
+    font-size: 20px;
+}
+.card strong{
+    background-color: rgb(241, 245, 4);
+}
+
+.card small{
+    background-color: rgb(241, 245, 4);
+    font-weight: bold;
+}
