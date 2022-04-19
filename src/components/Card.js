@@ -1,11 +1,10 @@
-function Card() {
+function Card(props) {
     return (
         <div className="card">
-            <strong>Ramon</strong>
-            <small>150</small>
+            <strong>{props.name}</strong>
+            <small>{props.value}</small>
         </div>
-
     );
-  }
-  
-  export default Card;
+}
+
+export default Card;
