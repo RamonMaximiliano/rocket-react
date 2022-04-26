@@ -44,15 +44,22 @@ function App() {
 
 
 
+  //DELETE
+/* 
   let itemsList = document.querySelectorAll("small")
   for(let x=0;x<itemsList.length;x++){
     itemsList[x].addEventListener("click", showItem)
-  }
+  } */
 
-function showItem(event){
-  console.log(event.target)
+/* function deleteListed(this){
+  console.log(this)
+}  */
 
-}
+
+//DELETE
+
+
+
 
 
   //USE-EFFECT
@@ -92,7 +99,7 @@ function showItem(event){
       <button onClick={handleItem}>Add</button>
 
       {
-        items.map(item => <Card name={item.name} id={item.id} />)
+        items.map(item => <Card name={item.name} id={item.id} /* deleteItem={deleteListed} *//>)
 
       }
 

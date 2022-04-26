@@ -1,8 +1,8 @@
-function Card(props) {
+function Card(props/* , deleteItem */) {
     return (
-        <div className="card">
+        <div className="card" /* onClick={()=>deleteItem(this)}*/>
             <strong>{props.name}</strong>
-            <small>{props.id}-X</small>
+            <small >{props.id}</small>
         </div>
     );
 }
