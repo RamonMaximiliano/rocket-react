@@ -28,39 +28,15 @@ function App() {
     setItems(prevState => [...prevState, newItem]);
     document.getElementById("textInput").value = ''
   }
-
-
-
     //was not able to understand the below property being sent, check arrow functions and try to make normal function on the below
 
   };
 
 //Test
 
-
   function clearList(){
     setItems([])
   }
-
-
-
-  //DELETE
-/* 
-  let itemsList = document.querySelectorAll("small")
-  for(let x=0;x<itemsList.length;x++){
-    itemsList[x].addEventListener("click", showItem)
-  } */
-
-/* function deleteListed(this){
-  console.log(this)
-}  */
-
-
-//DELETE
-
-
-
-
 
   //USE-EFFECT
   // "useEffect" ele é renderizado assim que a tela é carregada.
@@ -99,7 +75,7 @@ function App() {
       <button onClick={handleItem}>Add</button>
 
       {
-        items.map(item => <Card name={item.name} id={item.id} /* deleteItem={deleteListed} *//>)
+        items.map(item => <Card name={item.name} id={item.id}/>)
 
       }
 
