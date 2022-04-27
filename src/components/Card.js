@@ -1,12 +1,10 @@
 function Card(props) {
     return (
-        <div className="card" /* onClick={()=>deleteItem(this)}*/>
+        <div className="card" id={props.id}/* onClick={()=>deleteItem(this)}*/>
             <strong>{props.name}</strong>
-            <small>{props.id}</small>
+            <small onClick={props.onclick}>{props.id}</small>
         </div>
     );
 }
-
-//Test
 
 export default Card;

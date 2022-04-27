@@ -10,8 +10,6 @@ function App() {
   const [items, setItems] = useState([]);
   const [user, setUser] = useState({ name: '', avatar: '' })
 
-  console.log(items)
-
   //USE-STATE
   // "useState" é um hook (useEffect é outro exemplo), geralmente começam com "use" que são funções que permitem ligar e conectar os recursos de estado dos componentes
   // Hooks foram criados para não mais usar classes no desenv, e sim usar functions 
@@ -31,8 +29,6 @@ function App() {
     //was not able to understand the below property being sent, check arrow functions and try to make normal function on the below
 
   };
-
-//Test
 
   function clearList(){
     setItems([])
@@ -64,6 +60,21 @@ function App() {
 
   }, [])
 
+  let indexOfItem = 1
+
+  function deleteItem(event){
+    indexOfItem = 0
+    console.log("Hello")
+    let idItem = event.target.innerHTML
+    setItems(items.filter(function(elementOfitems){
+        console.log(elementOfitems.id)
+        console.log(idItem)
+        console.log(items)
+
+        return elementOfitems.id != idItem
+      })
+    )
+  }
 
   return (
     <div className="tittle-div">
@@ -75,7 +86,7 @@ function App() {
       <button onClick={handleItem}>Add</button>
 
       {
-        items.map(item => <Card name={item.name} id={item.id}/>)
+        items.map(item => <Card name={item.name} /* id={item.id} */ id={indexOfItem++} onclick={deleteItem}/>)
 
       }
 
@@ -90,18 +101,15 @@ function App() {
 
 export default App;
 
-
-// Adicionar button para excluir o item
+// Adicionar button para excluir o item (ficou o numero como button)
+// Não deixar dois elementos com o mesmo ID, visualmente esta ok, o problema é o ID no array "items"
 // -- Não deixar adicionar itens vazios
 // -- Adicionar button de esvaziar lista
 // -- Adicionar footer criado por Ramon
+// Quando press enter add item
 // -- Quando adicionar item, esvaziar o input box
 // Ajustar cores e interface
 // Re-assistir video Diego (React)
 // Fazer o deploy com link
 // -- usar o useEffect para pegar foto e nome da API do github:  https://api.github.com/users/ramonmaximiliano
 // -- Criar chave unica para cada component => Consegui colocar um ID baseado no index
-
-
-
-
