@@ -64,14 +64,28 @@ function App() {
 
   function deleteItem(event){
     indexOfItem = 0
-    console.log("Hello")
     let idItem = event.target.innerHTML
-    setItems(items.filter(function(elementOfitems){
-        console.log(elementOfitems.id)
-        console.log(idItem)
-        console.log(items)
 
-        return elementOfitems.id != idItem
+
+    // Add event listener na function de deletar o item
+
+
+
+    setItems(items.filter(function(elementOfitems){
+      console.log("Hello")
+      console.log(elementOfitems.id)
+      console.log(elementOfitems)
+
+        let indexDeleteElement = items.indexOf(elementOfitems+1)
+        console.log(`${indexDeleteElement} index of item`)
+        console.log(indexDeleteElement)
+
+        var index = items.findIndex( s => s.name == elementOfitems.name )
+        console.log(`${index+1} index of ${elementOfitems.name}`)
+
+
+
+        return index != idItem
       })
     )
   }
