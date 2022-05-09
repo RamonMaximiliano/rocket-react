@@ -134,8 +134,8 @@ export default App;
 // -- Adicionar footer criado por Ramon
 // -- Quando adicionar item, esvaziar o input box
 // -- Limpar o value da input para que quando clique add de novo ele não fique adicionando o mesmo item várias vezes
-// Ajustar cores e interface
-// Re-assistir video Diego (React)
-// Fazer o deploy com link
+// -- Ajustar cores e interface
+// -- Re-assistir video Diego (React)
+// -- Fazer o deploy com link
 // -- usar o useEffect para pegar foto e nome da API do github:  https://api.github.com/users/ramonmaximiliano
 // -- Criar chave unica para cada component => Consegui colocar um ID baseado no index
