@@ -10,7 +10,7 @@ font-family: 'Poppins', sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: rgb(148, 148, 248);
+    background-color: #5c5c5c;
 }
 
 .tittle-div {
@@ -23,7 +23,7 @@ font-family: 'Poppins', sans-serif;
 .MainTittle {
     font-family: 'Libre Baskerville', serif;
     margin: 10px;
-    color: rgb(92, 3, 3);
+    color: #171717;
     font-size: 45px;
 }
 
@@ -41,67 +41,75 @@ font-family: 'Poppins', sans-serif;
     width: 100px;
     height: 30px;
     border-style: none;
-    background-color: rgb(204, 10, 10);
+    background-color: #DA0037;
     color: white;
     font-size: 15px;
-    cursor:pointer;
-}
-.tittle-div button:hover {
-    background-color: rgb(255, 50, 50);
+    cursor: pointer;
 }
 
-.card{
-    display:flex;
-    background-color: rgb(241, 245, 4);
+.tittle-div button:hover {
+    background-color: #fc3d6c;
+}
+
+.card {
+    display: flex;
+    background-color: #EDEDED;
     align-items: center;
     text-align: center;
-    width:500px;
-    margin:auto;
-    margin-top:30px;
+    width: 500px;
+    margin: auto;
+    margin-top: 30px;
     height: 40px;
-    justify-content:space-between;
-    padding:15px;
+    justify-content: space-between;
+    padding: 15px;
     font-size: 20px;
 }
-.card strong{
-    background-color: rgb(241, 245, 4);
+
+.card strong {
+    background-color: #EDEDED;
 }
 
-.card small{
-    background-color: rgb(241, 245, 4);
+.card small {
+    background-color: #EDEDED;
     font-weight: bold;
-    cursor:pointer;
+    cursor: pointer;
 }
 
-.imagetittle{
-    width:650px;
-    margin:auto;
-    display:flex;
-    justify-content:space-between;
+.imagetittle {
+    width: 650px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
 }
 
-.profileImage{
-    width:100px;
+.profileImage {
+    width: 100px;
     height: 100px;
     font-size: 20px;
     border-radius: 50%;
 }
 
-.footer{
-    margin-top:500px;
+.footer {
+    margin-top: 20px;
     font-weight: bold;
-    background-color: green;
+    background-color: #171717;
     height: 50px;
     align-items: center;
     line-height: 300%;
-    color:white;
+    color: white;
 }
 
-#clearButton{
-    background-color: orange;
-    margin-top:200px;
+#clearButton {
+    background-color: #DA0037;
+    margin-top: 200px;
 }
 
-/* test */
+#clearButton:hover {
+    background-color: #fc3d6c;
+}
+
+.deleteTip{
+    margin-top:500px;
+}

@@ -51,6 +51,9 @@ function App() {
 
 
     //was not able to understand the below property being sent, check arrow functions and try to make normal function on the below
+
+    //abaixo limpei de novo o valor do input para que não fique adicionando a mesma coisa mesmo sem ter typed nada
+    setItemName('')
   };
 
   //Test sfe
@@ -116,6 +119,7 @@ function App() {
       }
       <div>
         <button id="clearButton" onClick={clearList}>Clear</button>
+        <p className="deleteTip">* Click over the item number to delete it from the list</p>
         <footer className="footer">Created by Ramon</footer>
       </div>
 
@@ -124,12 +128,12 @@ function App() {
 }
 export default App;
 
-// --Adicionar button para excluir o item
+// -- Adicionar button para excluir o item
 // -- Não deixar adicionar itens vazios
 // -- Adicionar button de esvaziar lista
 // -- Adicionar footer criado por Ramon
 // -- Quando adicionar item, esvaziar o input box
-// Limpar o value da input para que quando clieque add de novo ele não fique adicionando o mesmo item várias vezes
+// -- Limpar o value da input para que quando clique add de novo ele não fique adicionando o mesmo item várias vezes
 // Ajustar cores e interface
 // Re-assistir video Diego (React)
 // Fazer o deploy com link
