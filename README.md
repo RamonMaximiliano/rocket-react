@@ -16,7 +16,7 @@ O nome título e a imagem estão sendo retirados da API do GitHub
 
 Despite the name, this app was not created on a RocketSeat tutorial, instead it is my first react alone project
 
-The name is because I did it while learning some basic react concenpts in a rocketseat course 
+The name is because I did it while learning some basic react concepts in a rocketseat course 
 
 This is the very first react project I was able to finish by myself, of course, searching some specifics details on internet 
 
