@@ -1,6 +1,6 @@
 # Rocket-React
 
-## Html - Css - JavaScript
+## Html - Css - JavaScript - React
 
 ## Português:
 
