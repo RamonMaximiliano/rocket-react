@@ -1,5 +1,7 @@
 # Rocket-React
 
+## Html - Css - JavaScript
+
 ## Português:
 
 Apesar do nome, este aplicativo não foi criado em um tutorial da RocketSeat, em vez disso é meu primeiro projeto de React sozinho
