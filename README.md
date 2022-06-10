@@ -10,7 +10,7 @@ Apesar do nome, este aplicativo não foi criado em um tutorial da RocketSeat, em
 
 O nome é porque eu fiz isso enquanto aprendia alguns conceitos básicos de React enquanto fazia um curso da rocketseat
 
-Este é o primeiro projeto do react que consegui terminar sozinho, é claro, pesquisando alguns detalhes específicos na internet
+Este é o primeiro projeto do react que consegui terminar sozinho.
 
 O nome título e a imagem estão sendo retirados da API do GitHub
 
@@ -20,7 +20,7 @@ Despite the name, this app was not created on a RocketSeat tutorial, instead it 
 
 The name is because I did it while learning some basic react concepts in a rocketseat course 
 
-This is the very first react project I was able to finish by myself, of course, searching some specifics details on internet 
+This is the very first react project I was able to finish by myself.
 
 The title name and picture are being taken from GitHub's API
 
